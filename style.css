@@ -53,3 +53,34 @@ section h2 {
   font-weight: 600;
   margin-bottom: 12px;
 }
+
+.project-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #eef2f5;
+    padding: 18px;
+    border-radius: 8px;
+    flex: 1 1 260px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+.project a:hover {
+    color: #16a085;
+}
