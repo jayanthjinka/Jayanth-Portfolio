@@ -1,38 +1,55 @@
 /* Header background and padding */
 header {
-    background-color: #243447;
-    color: white;
-    padding: 16px 0;
+  background-color: #243447;
+  color: white;
+  padding: 16px 0;
 }
 
 nav {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: 600;
-    transition: color 0.3s;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
 }
 
 nav a:hover {
-    color: #1abc9c;
+  color: #1abc9c;
 }
 
 section {
-    max-width: 960px;
-    margin: 50px auto;
-    padding: 0 16px;
-    min-height: 50vh;
+  max-width: 960px;
+  margin: 50px auto;
+  padding: 0 16px;
+  min-height: 50vh;
+}
+
+section h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #243447;
+}
+
+#about p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2c3e50;
+}
+
+#about p:first-of-type {
+  font-weight: 600;
+  margin-bottom: 12px;
 }
